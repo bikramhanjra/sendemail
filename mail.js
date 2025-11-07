@@ -14,7 +14,7 @@ const sentmail = async (req, res) => {
 
     const info = await transporter.sendMail({
       from: ' "Node js " <carli.williamson@ethereal.email>',
-      to: "abc@gmail.com",
+      to: "abc@gmail.comgi",
       subject: "email from backend",
       text: "This is email from node js for Testing Purpose",
       html: "<br>This is email from node js for Testing Purpose</br>",
